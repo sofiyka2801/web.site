@@ -1,0 +1,232 @@
+.fortext{text-align:center; font-family: Courier New; font-size: 150%;}
+A:link{color:#5F9EA0; text-decoration: none;}
+A:visited{color:#5F9EA0; text-decoration: none;}
+A:focus{color:#A9A9A9; text-decoration: none;}
+A:hover{color:#808080; text-decoration: none;}
+A:active{color:#ADD8E6; text-decoration: none;}
+.something {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.ramka {
+    transition: color #191970;
+  }
+  
+#p1{text-align: center; font-family: Courier New; font-size: 300%; color: #BC8F8F;}
+#p2{font-family: Courier New; font-size: 180%; color: #BC8F8F;}
+
+.leftimg {
+float:left;
+}
+
+.rectangle{
+    width: 400px;
+    height: 50px;
+    background-color: #BC8F8F;
+    margin-left: 40px;
+}
+.img{
+    width: 400px;
+    height: 350px;
+    background-size: cover;
+    background-position: center center;
+    margin-left: 20px;
+}
+.rectangle2{
+    width: 400px;
+    height: 690px;
+    background-color: #BC8F8F;
+    margin-left: 40px;
+}
+.p{
+    position: relative;
+    bottom: 660px;
+    left: 85px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+.c{
+    position: relative;
+    font-size: 20px;
+    left: 85px;
+    bottom: 598px;
+    color: white;
+}
+.phone{
+    position: relative;
+    font-size: 20px;
+    left: 130px;
+    bottom: 639px;
+}
+.e{
+    position: relative;
+    font-size: 20px;
+    left: 85px;
+    bottom: 660px;
+    color: white;
+}
+
+}
+.ts{
+    font-size: 30px;
+    font-weight: bold;
+}
+.list{
+    position: relative;
+    font-size: 24px;
+    bottom: 20px;
+}
+.lists{
+    position: relative;
+    bottom: 770px;
+    left: 80px;
+    color: white;
+}
+
+* {box-sizing: border-box}
+.my {display: none}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #DEB887;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #BC8F8F;
+  font-size: 50px;
+  padding: 8px 12px;
+  
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #BC8F8F;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+#table1{width: 100%; text-align: center; color:#A0522D;}
+
+#h22{width: 100%; text-align: center; color:#808080;}
+
+
+
+#con1{font-size: 200%; text-align: center; color:#BC8F8F;}
+
+#p55 {font-size: 150%; text-align: center; color:#BC8F8F;}
+
+#p555 {text-align: center;}
+
+#nameofsite {font-size: 300%; text-align: center; color:#5F9EA0;margin: 10px 10px 10px 10px;}
+
+#ss{text-align:center; font-size: 150%;}
+
+video{
+  text-align:center;
+}
+
+h3{
+  text-align:center; font-family: Courier New; font-size: 150%;
+  color: #5F9EA0;
+}
+
+body{
+  background-color: #D3D3D3;
+}
+
+.outer{
+  font-size: 150%;
+  color: #A0522D;
+}
+{
+margin: 0; /* Убираем отступы */
+   }
+   .parent {
+    margin: 30%; /* Отступы вокруг элемента */
+    background: #5F9EA0; /* Цвет фона */
+    padding: 10px; /* Поля вокруг текста */
+    color:#E0FFFF;
+   } 
+   .child {
+    border: 3px solid #666; /* Параметры рамки */
+    padding: 10px; /* Поля вокруг текста */
+    margin: 10px; /* Отступы вокруг */
+   }
+
+.topNubex {
+  position: fixed;
+  right: 45px;
+  bottom: 45px;
+   font-size: 150%;
